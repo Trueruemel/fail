@@ -1,0 +1,7 @@
+{
+  "name": "Copy of ConsentWerft v.20",
+  "description": "Digital privacy and compliance website featuring lead generation tools, educational resources, and service offers.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

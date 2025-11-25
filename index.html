@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <title>ConsentWerft - Datenschutz: Ihre Chance, kein Hindernis.</title>
+    <meta name="description" content="Wir modernisieren Banner, Consent Mode v2 und Server-Side Tracking. Rechtssicher, pragmatisch, ohne FUD.">
+    <meta name="theme-color" content="#6A0DAD">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Preload LCP Image -->
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2500&auto=format&fit=crop">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              heading: ['Sora', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                primary: '#6A0DAD',
+                accent: '#FF4FA2',
+              },
+              neutral: {
+                900: '#111111',
+                50: '#F9FAFB'
+              }
+            },
+            backgroundImage: {
+              'brand-gradient': 'linear-gradient(to right, #6A0DAD, #FF4FA2)',
+              'grid-pattern': "linear-gradient(to right, rgba(106, 13, 173, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(106, 13, 173, 0.05) 1px, transparent 1px)",
+            },
+            boxShadow: {
+              'subtle': '0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03)',
+              'glow': '0 0 20px rgba(106, 13, 173, 0.4)',
+              'glow-pink': '0 0 20px rgba(255, 79, 162, 0.4)',
+            },
+            animation: {
+              'float': 'float 6s ease-in-out infinite',
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        overflow-x: hidden;
+        background-color: white;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+      }
+      
+      /* Hide scrollbar utility */
+      .hide-scrollbar::-webkit-scrollbar {
+        height: 6px;
+      }
+      .hide-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .hide-scrollbar::-webkit-scrollbar-thumb {
+        background: #E5E5E5; 
+        border-radius: 4px;
+      }
+      .hide-scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #D4D4D4;
+      }
+
+      .gradient-text {
+        background: linear-gradient(to right, #6A0DAD, #FF4FA2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      
+      /* Smooth scrolling for anchor links */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@18.2.0",
+    "react/jsx-runtime": "https://aistudiocdn.com/react@18.2.0/jsx-runtime",
+    "react-dom": "https://aistudiocdn.com/react-dom@18.2.0",
+    "react-dom/client": "https://aistudiocdn.com/react-dom@18.2.0/client",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@6.22.3",
+    "react-router": "https://aistudiocdn.com/react-router@6.22.3",
+    "@remix-run/router": "https://aistudiocdn.com/@remix-run/router@1.15.3",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@0.358.0",
+    "clsx": "https://aistudiocdn.com/clsx@2.1.0",
+    "tailwind-merge": "https://aistudiocdn.com/tailwind-merge@2.2.2",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@1.30.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
